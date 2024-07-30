@@ -1,0 +1,811 @@
+@font-face {
+    font-family: archi;
+    src: url(./archia-light-webfont.woff);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+
+nav {
+
+    height: 4vmax;
+    width: 100vmax;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 9;
+    mix-blend-mode: difference;
+    position: fixed;
+
+
+}
+
+
+
+nav div {
+    height: 3vmax;
+    width: 10vmax;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#Nav2 {
+    width: 30vmax;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#Nav1 {
+    width: 10vmax;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+#Nav2 a {
+    font-size: 1.2vmax;
+    color: white;
+    transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+
+}
+
+#Nav3 a {
+    font-size: 1.2vmax;
+    color: white;
+    transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+}
+
+
+.Page1 {
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    position: relative;
+}
+
+
+
+
+.Page1 video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-bottom-left-radius: 5vmax;
+    border-bottom-right-radius: 5vmax;
+
+
+}
+
+
+.Page2 {
+    height: 100vh;
+    width: 100%;
+    background-image: url(/photo-1595586470680-e95950f45783.avif);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    
+}
+
+
+#Nav1 img {
+    height: 6vmax;
+    width: 7vmax;
+
+}
+
+
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.399);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.overlay div {
+    height: 80vh;
+    width: 40vw;
+    /* background-color: rgba(245, 245, 220, 0.107); */
+
+}
+
+#head {
+    height: 15vmax;
+    width: 12vmax;
+    color: white;
+    font-size: 8vmax;
+
+}
+
+span {
+    color: rgb(92, 238, 92);
+}
+
+#p {
+
+    font-size: 1.2vmax;
+    text-align: center;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+
+
+}
+
+#Box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 30vh;
+
+
+}
+
+
+
+button {
+    height: 3vmax;
+    width: 7vmax;
+    font-family: "Montserrat", sans-serif;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+
+}
+
+
+.Page3 {
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    position: relative;
+    margin-top: 1vmax;
+}
+
+
+#head2 {
+    font-size: 7vmax;
+    font-family: "Bebas Neue", sans-serif;
+    color: rgba(0, 0, 0, 0.364);
+    opacity: 1;
+}
+
+
+
+#s1 {
+    color: black;
+}
+
+
+
+
+.circle {
+    background-image: url(/bird.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    position: absolute;
+    height: 20vmax;
+    width: 20vmax;
+    border-radius: 20vmax;
+    right: -2%;
+    top: 15%;
+}
+
+
+
+.circle1 {
+    background-image: url(/polar\ bear.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    position: absolute;
+    height: 20vmax;
+    width: 20vmax;
+    border-radius: 20vmax;
+    left: 10%;
+    bottom: 0%;
+}
+
+
+.circle2 {
+    background-image: url(/photo-1721823607915-a6863aede887.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    position: absolute;
+    height: 20vmax;
+    width: 20vmax;
+    border-radius: 20vmax;
+    left: 50%;
+    top: 15%;
+}
+
+
+.circle3 {
+    background-image: url(/snake2.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    position: absolute;
+    height: 20vmax;
+    width: 20vmax;
+    border-radius: 20vmax;
+    right: 55%;
+    top: 15%;
+
+}
+
+.circle4 {
+    background-image: url(/tiger.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    position: absolute;
+    height: 20vmax;
+    width: 20vmax;
+    border-radius: 20vmax;
+    left: -5%;
+    top: 15%;
+}
+
+
+
+
+.circle5 {
+    background-image: url(/fish.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    position: absolute;
+    height: 20vmax;
+    width: 20vmax;
+    border-radius: 20vmax;
+    right: 10%;
+    bottom: 0%;
+}
+
+.circle6 {
+    background-image: url(/monkey.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    position: absolute;
+    height: 20vmax;
+    width: 20vmax;
+    border-radius: 20vmax;
+    right: 40%;
+    bottom: 0%;
+}
+
+
+
+
+
+
+
+
+.Page4 {
+    height: 100vh;
+    width: 100vw;
+    background-color: green;
+    position: relative;
+    margin-top: 2vmax;
+    /* border-top-left-radius: 5vmax;
+    border-top-right-radius: 5vmax;
+    border-bottom-left-radius: 5vmax;
+    border-bottom-right-radius: 5vmax; */
+}
+
+
+
+
+
+#head3 {
+   
+    font-size: 5vmax;
+    font-family: "Bebas Neue", sans-serif;
+    color: rgba(0, 0, 0, 0.364);
+    opacity: 1;
+}
+
+
+
+#s1 {
+    color: black;
+}
+
+
+.search
+{
+
+
+height: 3vmax;
+width: 100vw;
+margin-top: 2vmax;
+background-color: rgba(0, 0, 0, 0.201);
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+
+}
+
+.search div
+{
+    height: 2vmax;
+    width: 2vmax;
+    background-color: black;
+    display: flex;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.search div:hover
+{
+    scale: 1.2;
+    transition-duration: 1.5s;
+}
+
+
+input
+{
+    height: 2vmax;
+    width: 10vmax;
+    border-radius: 5vmax;
+    text-align: center;
+}
+
+.main
+{
+    height: 20vmax;
+    width: 100vw;
+    /* background-color: white; */
+   margin-top: 8vmax;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    overflow-x: scroll;
+    gap: 1vw;
+}
+
+
+.main::-webkit-scrollbar
+{
+    display: none;
+}
+
+
+.main div
+{
+    height: 15vmax;
+    min-width: 20vmax;
+    background-color: red;
+    cursor: pointer;
+}
+
+.main div:hover
+{
+    scale:1.1;
+    transition-duration: 1s;
+}
+
+
+#I1
+{
+background-image: url(/crabs.avif);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+object-fit: cover;
+border-radius: 2vmax;
+
+}
+
+
+#I2
+{
+background-image: url(/birdddd.avif);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+object-fit: cover;
+border-radius: 2vmax;
+
+}
+
+
+#I3
+{
+background-image: url(/lizarddd.avif);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+object-fit: cover;
+border-radius: 2vmax;
+
+
+}
+
+
+
+#I4
+{
+background-image: url(/liooon.avif);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+object-fit: cover;
+border-radius: 2vmax;
+
+}
+
+
+#I5
+{
+background-image: url(/fishesssss.avif);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+object-fit: cover;
+border-radius: 2vmax;
+
+}
+
+
+
+#I6
+{
+background-image: url(/duck.avif);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+object-fit: cover;
+border-radius: 2vmax;
+
+}
+
+
+
+#I7
+{
+background-image: url(/spider.avif);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+object-fit: cover;
+border-radius: 2vmax;
+
+}
+
+
+
+#I8
+{
+background-image: url(/turtle.avif);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+object-fit: cover;
+border-radius: 2vmax;
+
+}
+
+
+#I9
+{
+background-image: url(/elephant.avif);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+object-fit: cover;
+border-radius: 2vmax;
+
+}
+
+
+#I10
+{
+background-image: url(/bear.avif);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+object-fit: cover;
+border-radius: 2vmax;
+
+}
+
+.main h1
+{
+    font-size: 2vmax;
+    color: white;
+    font-family: "Montserrat", sans-serif;   
+}
+
+.main p
+{
+    font-size: 1.3vmax;
+    color: white;
+    font-family: "Montserrat", sans-serif;   
+}
+
+
+
+
+.Box3
+{
+    height: 20vmax;
+    width: 80vw;
+    background-color: green;
+}
+
+.footer
+{
+
+    height: 100%;
+    width: 100%;
+    background-color: green;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+   justify-content: space-around;
+    align-items: center;
+}
+
+
+.Page5 {
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.Box3
+{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2vmax;
+   
+}
+
+.Box3 h1
+{
+    font-size: 3vmax;
+    font-family: "Montserrat", sans-serif; 
+   color: white;
+}
+
+
+.Page6
+{
+    height: max-content;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Page6 #L1
+{
+    height: 50vmin;
+    width: 100%;
+    background-color:rgba(0, 128, 0, 0.822);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#L1 div
+{
+    background-color: transparent;
+    height: 40vmin;
+    width: 25%;
+    
+
+
+}
+
+#L1 #L2
+{
+    width: 35%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#L2 div
+{
+    height: 60%;
+    width: 30%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#L2 h6
+{
+    color: black;
+    font-size: 1vmax;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    cursor: pointer;
+}
+
+#L2 p
+{
+    color: rgba(0, 0, 0, 0.327);
+    font-size: 1vmax;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    cursor: pointer;
+
+
+
+}
+
+#L3 h6
+{
+    color: black;
+    font-size: 1vmax;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    cursor: pointer;
+}
+
+#L3
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+#L3 a
+{
+    height:5vmin;
+ width: 6vmax;
+ border: solid black;
+ color: black;
+ font-size: 0.8vmax;
+ font-family: 'Montserrat', sans-serif;
+ text-decoration: none;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ cursor: pointer;
+ 
+}
+#L5
+{
+    display: flex;
+    height: 10vmax;
+    width: 10vmax;
+   justify-content: center;
+    align-items: center;
+    
+}
+
+
+#L5 h2
+{
+   color: yellow;
+    font-size: 2vmax;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#L5 img
+{
+    height: 20vmin;
+    width: 12vmax;
+}
+
+#L3 div
+{
+    width: 100%;
+    height: 4vmax;
+    background-color: transparent;
+    
+}
+
+#L3 #L6
+{
+    width: 10vmax;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#L6 img
+{
+    height: 1.5vmax;
+    width: 1.5vmax;
+    cursor: pointer;
+}
+
+#L9
+{
+    height: 2vmax;
+    width: 100%;
+    background-color: rgb(213, 209, 209);
+    display: flex;
+    flex-direction:row ;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#L9 h6
+{
+    font-size: 0.8vmax;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+@media(max-width:600px)
+{
+    #Nav2 { display: none;}
+    .overlay #head {font-size:20vmax; width:10vmax; height: 2vmax; }
+    .Page3 #head2 {font-size: 5vmax;}
+    .Page3 {display: flex; flex-direction: column; height:100vmin;}
+   .Page4{height: max-content;}
+   
+   .Page6{height: max-content;}
+}
